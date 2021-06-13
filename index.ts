@@ -21,3 +21,5 @@ const lambdaFunction = new aws.lambda.Function('my-function', {
     ),
   }),
 });
+
+export const functionName = lambdaFunction.name;
